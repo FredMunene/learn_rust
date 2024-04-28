@@ -30,4 +30,4 @@ Data Types
 
 ## Resources and Books
 
-+ [**The Cargo Book**](https://doc.rust-lang.org/cargo/)
++ [**The Cargo Book**] (https://doc.rust-lang.org/cargo/)
