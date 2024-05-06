@@ -18,6 +18,9 @@ fn main(){
 
     let i: i32 = -7;
     // floating point
-    let d = 10.22;
+    let d :f32 = 10.22;
+    let m : f64 = 9.7;
     let y: f32 = 3.0; 
+
+    let character : char = 't';
 }

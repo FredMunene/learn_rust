@@ -1,6 +1,6 @@
 fn main(){
 
-    const age : i32 = 13;
+    const AGE : i32 = 13;
 
     // Attributes
     #[derive(Debug)]
