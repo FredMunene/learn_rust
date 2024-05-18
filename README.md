@@ -20,6 +20,10 @@ A typical setup for a Rust project will contain the below. In our case, folder *
 * src
 * target
 
+To run a single script, first compile is using the below command
+` rustc file_name.rs`
+Then run your program using 
+` ./file_name`
 + Commands
     * `cargo build`
     * `cargp run`
