@@ -1,0 +1,1 @@
+/home/fgitonga/Desktop/learn_rust/class_7/class_work/target/debug/class_work: /home/fgitonga/Desktop/learn_rust/class_7/class_work/src/game_chess/game.rs /home/fgitonga/Desktop/learn_rust/class_7/class_work/src/game_chess/mod.rs /home/fgitonga/Desktop/learn_rust/class_7/class_work/src/main.rs
