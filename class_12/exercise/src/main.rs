@@ -4,7 +4,7 @@ fn main(){
  // a shop managemnt sys that stores items and their qtts e.g pen=10
 // structs && traits create a solution, use trait to stock summary
 
-    let mut stock: HashMap::<String, Box <StockItem>> = HashMap::new();
+    let mut stock: HashMap::<String, Box <dyn StockItem>> = HashMap::new();
     stock.insert(
         String::from("pen"),
         Box::new(Product{
@@ -17,12 +17,10 @@ fn main(){
         println!("Item: {} Quantity:{}",key,item.quantity());
     }
 
-    let vec1: Vec<Product> = Vec::new();
-    let item: Product=Product{item:"Cakes".to_string(),quantity:4};
-    
-
-    summary_data()
-
+    let mut vec1: Vec<Product> = Vec::new();
+    let item: Product=Product{name:"Cakes".to_string(),quantity:4};
+    vec1.push(item);
+    item.summary_data();
 }
 
 struct Product {
